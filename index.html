@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <title>Exemplo Javascript</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="col-md-12 mb-4">
+        <textarea class="form-control mb-2 mt-4" id="producoes"></textarea>
+        <button class="btn btn-primary" onclick="obterProducao()">
+          Adicionar
+        </button>
+      </div>
+
+      <div class="col-md-12">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="p-esquerda">Lado esquerdo da produção</label>
+              <input class="form-control" type="text" id="p-esquerda" />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="p-direita">Lado direito da produção</label>
+              <input class="form-control" type="text" id="p-direita" />
+            </div>
+          </div>
+        </div>
+        <button class="btn btn-success" onclick="adicionarProducao()">
+          Adicionar
+        </button>
+      </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
